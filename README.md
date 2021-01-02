@@ -21,6 +21,7 @@ s'agit d'une version simplifiée d'algorithmes génétiques.
 Définir un type abstrait de données appelé Individu, représenté par une liste de bits, de longueur donnée
 (longIndiv).
 Écrire l’algorithme et le sous-programme C correspondant aux opérations suivantes :
+
 • Initialiser aléatoirement la liste de bits (donner une version itérative et une version récursive de cette
 opération).
 • Décoder la liste de bits et donner la valeur entière correspondante.
@@ -29,6 +30,7 @@ donnée (pCroise) pour chaque position dans la liste (tirage aléatoire et compa
 • Calculer à partir de la valeur d’un individu sa qualité, en utilisant la fonction réelle f1 donnée ci-dessous:
 f 1(x )=−X 2
 avec : X = (x/ 2^longIndiv )* (B−A)+ A, A=−1, B=1, longIndiv=8
+
 Au niveau de l’implémentation en C, on utilisera pour représenter un bit la définition de type suivante :
 «typedef unsigned char Bit; ». Ainsi, une variable de type Bit prendra les valeurs 0 ou 1. De plus, une
 suite de bits sera représentée sous forme d’une liste chaînée. Pour la génération de nombres aléatoires,
