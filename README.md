@@ -22,9 +22,9 @@ Définir un type abstrait de données appelé Individu, représenté par une lis
 (longIndiv).
 Écrire l’algorithme et le sous-programme C correspondant aux opérations suivantes :
 
-• Initialiser aléatoirement la liste de bits (donner une version itérative et une version récursive de cette
+* Initialiser aléatoirement la liste de bits (donner une version itérative et une version récursive de cette
 opération).
-• Décoder la liste de bits et donner la valeur entière correspondante.
+* Décoder la liste de bits et donner la valeur entière correspondante.
 • Croiser deux listes de bits, c'est à dire intervertir les éléments des deux listes selon une probabilité
 donnée (pCroise) pour chaque position dans la liste (tirage aléatoire et comparaison avec la probabilité).
 • Calculer à partir de la valeur d’un individu sa qualité, en utilisant la fonction réelle f1 donnée ci-dessous:
