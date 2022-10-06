@@ -45,11 +45,11 @@ et le sous-programme C correspondant aux opérations suivantes :
 utilisera pour cela la fonction Qualité définie sur le type abstrait Individu.
 * Sélectionner les meilleurs Individus de la Population en tronquant la liste et en la complétant par
 recopie des tSelect premiers éléments. Par exemple :
- tselect = 4
-** Qualité des Individus :
-** 7 6 5 4 3 2 1
-** Liste après sélection :
-** 7 6 5 4 7 6 5
+ * tselect = 4
+ * Qualité des Individus :
+ * 7 6 5 4 3 2 1
+ * Liste après sélection :
+ * 7 6 5 4 7 6 5
 
 * Croiser la Population, c'est à dire à partir d’une Population P1, créer une seconde Population P2,
 constituée d’Individus sélectionnés aléatoirement deux à deux dans P1 et croisés entre eux.
@@ -72,22 +72,22 @@ liste est donc globalement triée.
 
 En utilisant les précédentes définitions, réaliser le programme correspondant à l’algorithme ci-dessous:
 
-Initialiser la Population
-Répéter nGen fois
-Début
-Croiser la Population
-Trier la Population
-Sélectionner la Population
-Fin
+* Initialiser la Population
+* Répéter nGen fois
+* Début
+* Croiser la Population
+* Trier la Population
+* Sélectionner la Population
+* Fin
 
 Afficher le meilleur Individu de la Population
 Les paramètres à utiliser sont les suivants :
 
--Longueur d'un individu : longIndiv = 8
--Probabilité de croisement : pCroise = 0.5
--Taille de la Population : 20 ≤ TaillePop ≤ 200
--Taux de sélection : 10% ≤ tSelect ≤ 90%
--Nombre de générations : 20 ≤ nGen ≤ 200
+ * Longueur d'un individu : longIndiv = 8
+ * Probabilité de croisement : pCroise = 0.5
+ * Taille de la Population : 20 ≤ TaillePop ≤ 200
+ * Taux de sélection : 10% ≤ tSelect ≤ 90%
+ * Nombre de générations : 20 ≤ nGen ≤ 200
 
 
 5. Manipulation
@@ -95,9 +95,9 @@ Les paramètres à utiliser sont les suivants :
 
 Une fois les types de données et leurs opérations définis et le programme réalisé, tester celui-ci en
 remplaçant la fonction Qualité f1 par la fonction suivante :
-** f 2(x)=−ln(X)
-** avec : X = (x/ 2
-** longIndiv )* (B−A)+A, A=0.1, B=5, longIndiv=16
+ * f 2(x)=−ln(X)
+ * avec : X = (x/ 2
+ * longIndiv )* (B−A)+A, A=0.1, B=5, longIndiv=16
 On précise que l’on réalise préalablement au calcul de la fonction en lui même, une mise à l’échelle, au
 moyen de X.
 
@@ -107,11 +107,11 @@ moyen de X.
 
 
 Le rapport doit contenir les éléments suivants :
-• Description des choix de conception et d’implémentation relatifs aux structures de données utilisées et
+ * Description des choix de conception et d’implémentation relatifs aux structures de données utilisées et
 à la démarche adoptée.
-* Algorithmes des sous-programmes (en utilisant des opérations abstraites) et leurs explications.
-* Jeux d’essais.
-* Commentaires sur les résultats.
+ * Algorithmes des sous-programmes (en utilisant des opérations abstraites) et leurs explications.
+ * Jeux d’essais.
+ * Commentaires sur les résultats.
 Le rapport ne devra pas contenir de listing du programme C.
 
 
