@@ -45,7 +45,7 @@ et le sous-programme C correspondant aux opérations suivantes :
 utilisera pour cela la fonction Qualité définie sur le type abstrait Individu.
 * Sélectionner les meilleurs Individus de la Population en tronquant la liste et en la complétant par
 recopie des tSelect premiers éléments. Par exemple :
-** tselect = 4
+ tselect = 4
 ** Qualité des Individus :
 ** 7 6 5 4 3 2 1
 ** Liste après sélection :
