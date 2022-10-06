@@ -28,8 +28,8 @@ opération).
 * Croiser deux listes de bits, c'est à dire intervertir les éléments des deux listes selon une probabilité
 donnée (pCroise) pour chaque position dans la liste (tirage aléatoire et comparaison avec la probabilité).
 * Calculer à partir de la valeur d’un individu sa qualité, en utilisant la fonction réelle f1 donnée ci-dessous:
-f 1(x )=−X 2
-avec : X = (x/ 2^longIndiv )* (B−A)+ A, A=−1, B=1, longIndiv=8
+  * f 1(x )=−X 2
+  * avec : X = (x/ 2^longIndiv )* (B−A)+ A, A=−1, B=1, longIndiv=8
 
 Au niveau de l’implémentation en C, on utilisera pour représenter un bit la définition de type suivante :
 «typedef unsigned char Bit; ». Ainsi, une variable de type Bit prendra les valeurs 0 ou 1. De plus, une
